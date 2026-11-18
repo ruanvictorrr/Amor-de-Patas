@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clínica Amor de Patas | Clínica Veterinária em Caruaru e Recife</title>
+<meta name="description" content="Consultas, cirurgias, exames laboratoriais e internamento 24h para cães e gatos. Três unidades em Caruaru e Recife. Nota 4,9 no Google.">
+<meta name="theme-color" content="#2f2fb8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..800,100&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/jpeg" href="img/logo-perfil.jpg">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-paw" viewBox="0 0 24 24"><path fill="currentColor" d="M12 13.2c-2.9 0-6.2 3.1-6.2 5.6 0 1.5 1.2 2.2 2.6 2.2 1.4 0 2.3-.8 3.6-.8s2.2.8 3.6.8c1.4 0 2.6-.7 2.6-2.2 0-2.5-3.3-5.6-6.2-5.6ZM6.2 12.4c1.3-.4 1.9-2 1.4-3.6-.5-1.6-2-2.6-3.2-2.2-1.3.4-1.9 2-1.4 3.6.5 1.6 2 2.6 3.2 2.2Zm3.6-3.7c1.5 0 2.6-1.6 2.6-3.6S11.3 1.5 9.8 1.5 7.2 3.1 7.2 5.1s1.1 3.6 2.6 3.6Zm4.4 0c1.5 0 2.6-1.6 2.6-3.6s-1.1-3.6-2.6-3.6-2.6 1.6-2.6 3.6 1.1 3.6 2.6 3.6Zm5.4-2.1c-1.3-.4-2.7.6-3.2 2.2-.5 1.6.1 3.2 1.4 3.6 1.3.4 2.7-.6 3.2-2.2.5-1.6-.1-3.2-1.4-3.6Z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.24 8.24 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.5 2.9 6 6.6.8-4.9 4.6 1.3 6.6L12 17.2l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8 2.9-6Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.2-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1.2" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3.5 12a8.5 8.5 0 1 0 2.5-6M3 3v4.5h4.5"/><text x="12" y="15.5" text-anchor="middle" font-size="7.5" font-weight="800" fill="currentColor" font-family="system-ui, sans-serif">10</text></symbol>
+  <symbol id="i-fwd" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20.5 12a8.5 8.5 0 1 1-2.5-6M21 3v4.5h-4.5"/><text x="12" y="15.5" text-anchor="middle" font-size="7.5" font-weight="800" fill="currentColor" font-family="system-ui, sans-serif">10</text></symbol>
+  <symbol id="i-vol" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 9h4l5-4v14l-5-4H4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12"/></symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 9h4l5-4v14l-5-4H4z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="m17 9 5 6m0-6-5 6"/></symbol>
+</svg>
+
+<header class="topbar" id="topo">
+  <div class="wrap nav">
+    <a href="#" class="brand" aria-label="Clínica Amor de Patas, início">
+      <img src="img/logo-perfil.jpg" alt="" width="44" height="44">
+      <span><strong>Amor de Patas</strong><small>Clínica Veterinária</small></span>
+    </a>
+    <nav aria-label="Principal" class="menu" id="menu">
+      <a href="#servicos">Serviços</a>
+      <a href="#unidades">Unidades</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#avaliacoes">Avaliações</a>
+    </nav>
+    <a class="btn btn-primary btn-sm nav-cta" href="https://wa.me/5581998963040?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+      <svg class="ico"><use href="#i-wa"/></svg><span>Agendar</span>
+    </a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="live-dot" data-live-dot></span> <span data-live-text>Caruaru · Recife</span></p>
+        <h1 class="reveal">Medicina veterinária séria, <em>com muito amor</em> envolvido.</h1>
+        <p class="lead reveal">Consultas, cirurgias, exames laboratoriais e <strong>internamento 24h</strong> para cães e gatos. Três unidades entre Caruaru e Recife, com uma equipe que trata seu pet como família.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="https://wa.me/5581998963040?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20para%20o%20meu%20pet." target="_blank" rel="noopener">
+            <svg class="ico"><use href="#i-wa"/></svg> Agendar pelo WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#unidades">Ver unidades <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="hero-proof reveal">
+          <div class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p><strong>4,9 no Google</strong> · 32 avaliações de tutores</p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <figure class="photo photo-main">
+          <img src="img/dr-gabriel-yorkshire.jpg" alt="Dr. Gabriel atendendo uma yorkshire na clínica" width="360" height="640">
+        </figure>
+        <figure class="photo photo-side">
+          <img src="img/atendimento-exame.jpg" alt="Equipe examinando um cachorro na mesa de atendimento" width="360" height="640">
+        </figure>
+        <div class="float-card float-24h">
+          <span class="big">24h</span>
+          <span>Internamento<br>na unidade Maurício de Nassau</span>
+        </div>
+        <div class="float-card float-paw" aria-hidden="true"><svg><use href="#i-paw"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NÚMEROS -->
+  <section class="stats" aria-label="Destaques">
+    <div class="wrap stats-grid">
+      <div class="stat"><strong>3</strong><span>unidades em Caruaru e Recife</span></div>
+      <div class="stat"><strong>24h</strong><span>de internamento com acompanhamento</span></div>
+      <div class="stat"><strong>7/7</strong><span>dias por semana, até as 22h</span></div>
+      <div class="stat"><strong>12 mil+</strong><span>tutores acompanham no Instagram</span></div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">O que fazemos</p>
+        <h2>Atendimento completo, do check-up à cirurgia.</h2>
+        <p>Tudo o que seu pet precisa num só lugar, com estrutura própria e profissionais capacitados.</p>
+      </div>
+
+      <div class="services">
+        <article class="service reveal">
+          <div class="s-ico"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M6 3v6a4 4 0 0 0 8 0V3M10 13v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></div>
+          <h3>Consultas</h3>
+          <p>Avaliação clínica cuidadosa para cães e gatos, com tempo para ouvir você e explicar cada passo do tratamento.</p>
+        </article>
+        <article class="service reveal">
+          <div class="s-ico"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="m14.5 4.5 5 5M17 7l-9.5 9.5L4 20l3.5-3.5M12 9l3 3"/></svg></div>
+          <h3>Cirurgias</h3>
+          <p>Procedimentos cirúrgicos com orientação completa de pré e pós-operatório para o tutor ficar tranquilo.</p>
+        </article>
+        <article class="service reveal">
+          <div class="s-ico"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3M7.5 14h9"/></svg></div>
+          <h3>Exames laboratoriais</h3>
+          <p>Exames para um diagnóstico rápido e preciso, sem precisar levar seu pet de um lugar para outro.</p>
+        </article>
+        <article class="service service-feature reveal">
+          <div class="s-ico"><svg><use href="#i-clock"/></svg></div>
+          <h3>Internamento 24h</h3>
+          <p>Na unidade Maurício de Nassau, seu pet fica internado com acompanhamento dia e noite.</p>
+          <a href="#unidades" data-unit-link="1" class="s-link">Conhecer a unidade <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIDADES -->
+  <section class="section units-section" id="unidades">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Nossas unidades</p>
+        <h2>Uma Amor de Patas pertinho de você.</h2>
+        <p>Escolha a unidade para ver endereço, horário e se ela está aberta agora.</p>
+      </div>
+
+      <div class="units reveal">
+        <div class="unit-tabs" role="tablist" aria-label="Unidades">
+          <button role="tab" class="unit-tab" data-unit="0" aria-selected="false"><span class="num">I</span><span><strong>Afogados</strong><small>Recife</small></span><span class="status-dot" data-dot="0"></span></button>
+          <button role="tab" class="unit-tab" data-unit="1" aria-selected="true"><span class="num">II</span><span><strong>Maurício de Nassau</strong><small>Caruaru · 24h</small></span><span class="status-dot" data-dot="1"></span></button>
+          <button role="tab" class="unit-tab" data-unit="2" aria-selected="false"><span class="num">III</span><span><strong>Estrada p/ Xique-Xique</strong><small>Caruaru</small></span><span class="status-dot" data-dot="2"></span></button>
+        </div>
+
+        <div class="unit-panel" role="tabpanel">
+          <div class="unit-info">
+            <p class="unit-status" data-unit-status></p>
+            <h3 data-unit-name></h3>
+            <ul class="unit-list">
+              <li><svg class="ico"><use href="#i-pin"/></svg><span data-unit-address></span></li>
+              <li><svg class="ico"><use href="#i-clock"/></svg><span data-unit-hours></span></li>
+              <li><svg class="ico"><use href="#i-phone"/></svg><span data-unit-phone></span></li>
+            </ul>
+            <div class="unit-ctas">
+              <a class="btn btn-primary" data-unit-wa target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg> Chamar esta unidade</a>
+              <a class="btn btn-ghost" data-unit-route target="_blank" rel="noopener">Como chegar</a>
+            </div>
+          </div>
+          <div class="unit-map">
+            <iframe data-unit-map title="Mapa da unidade" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="section team" id="equipe">
+    <div class="wrap team-grid">
+      <figure class="team-photo reveal">
+        <img src="img/dr-gabriel.jpg" alt="Dr. Gabriel Ordonio de Melo, médico veterinário da Amor de Patas" width="360" height="640" loading="lazy">
+        <figcaption><strong>Dr. Gabriel Ordonio de Melo</strong><span>Médico veterinário</span></figcaption>
+      </figure>
+      <div class="team-copy">
+        <p class="kicker reveal">Quem cuida do seu pet</p>
+        <h2 class="reveal">Gente que explica, acolhe e não larga a sua mão.</h2>
+        <blockquote class="reveal">
+          <p>“Gabriel foi um anjo enviado para devolver minhas noites de sono tranquilas.”</p>
+          <cite>Avaliação de tutora no Google</cite>
+        </blockquote>
+        <p class="reveal">À frente da equipe, o Dr. Gabriel atende com calma e atenção a cada detalhe, junto de profissionais e estagiárias que fazem do atendimento um momento leve para o pet e para o tutor.</p>
+        <ul class="values reveal">
+          <li><svg class="ico"><use href="#i-paw"/></svg> Empresa de empreendedoras</li>
+          <li><svg class="ico"><use href="#i-paw"/></svg> Acolhe a comunidade LGBTQ+</li>
+          <li><svg class="ico"><use href="#i-paw"/></svg> Ambiente amplo e organizado</li>
+          <li><svg class="ico"><use href="#i-paw"/></svg> Preço justo, sem surpresa</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARTÃO -->
+  <section class="card-band">
+    <div class="wrap card-band-inner reveal">
+      <div class="discount-card" aria-hidden="true">
+        <div class="dc-top"><img src="img/logo-perfil.jpg" alt=""><span>Amor de Patas</span></div>
+        <div class="dc-chip"></div>
+        <p class="dc-label">Cartão de desconto</p>
+        <p class="dc-name">Tutor(a) Amor de Patas</p>
+        <svg class="dc-paw"><use href="#i-paw"/></svg>
+      </div>
+      <div class="card-band-copy">
+        <p class="kicker kicker-light">Cartão de desconto</p>
+        <h2>Cuidar do seu pet pode custar menos.</h2>
+        <p>Com o cartão de desconto da Amor de Patas você economiza em consultas, exames e procedimentos nas nossas unidades. Peça os detalhes pelo WhatsApp.</p>
+        <a class="btn btn-light" href="https://wa.me/5581998963040?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20cart%C3%A3o%20de%20desconto." target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg> Quero o cartão</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DICAS -->
+  <section class="section" id="dicas">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Dicas da Amor de Patas</p>
+        <h2>Calor chegou. Seu pet sente também.</h2>
+        <p>Alguns cuidados simples que a gente compartilha no Instagram e que fazem diferença no dia a dia.</p>
+      </div>
+
+      <div class="tips">
+        <article class="tip reveal">
+          <div class="tip-media player" data-player>
+            <video class="tip-video" src="video/dica-hidratacao.mp4" poster="img/poster-hidratacao.jpg" playsinline preload="metadata" aria-label="Vídeo: dicas de hidratação para gatos e cães"></video>
+            <span class="reel-badge"><svg class="ico"><use href="#i-ig"/></svg> Reel</span>
+            <button class="big-play" type="button" data-act="play" aria-label="Reproduzir vídeo"><svg><use href="#i-play"/></svg></button>
+            <div class="controls">
+              <input class="seek" type="range" min="0" max="1000" step="1" value="0" aria-label="Posição do vídeo">
+              <div class="ctrl-row">
+                <button class="c-btn" type="button" data-act="back" aria-label="Voltar 10 segundos"><svg><use href="#i-back"/></svg></button>
+                <button class="c-btn c-play" type="button" data-act="play" aria-label="Reproduzir"><svg class="i-play"><use href="#i-play"/></svg><svg class="i-pause"><use href="#i-pause"/></svg></button>
+                <button class="c-btn" type="button" data-act="fwd" aria-label="Avançar 10 segundos"><svg><use href="#i-fwd"/></svg></button>
+                <span class="time"><span data-cur>0:00</span> / <span data-dur>0:00</span></span>
+                <div class="vol">
+                  <button class="c-btn" type="button" data-act="mute" aria-label="Silenciar"><svg class="i-vol"><use href="#i-vol"/></svg><svg class="i-mute"><use href="#i-mute"/></svg></button>
+                  <input class="vol-range" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tip-body">
+            <span class="tag">Hidratação</span>
+            <h3>Seu pet bebe pouca água?</h3>
+            <p>Espalhe potes pela casa e troque a água sempre para ela ficar fresquinha. Gatos costumam preferir potes largos e longe da comida.</p>
+          </div>
+        </article>
+        <article class="tip reveal">
+          <div class="tip-media player" data-player>
+            <video class="tip-video" src="video/dica-ar-condicionado.mp4" poster="img/poster-ar-condicionado.jpg" playsinline preload="metadata" aria-label="Vídeo: pet pode ficar no ar-condicionado?"></video>
+            <span class="reel-badge"><svg class="ico"><use href="#i-ig"/></svg> Reel</span>
+            <button class="big-play" type="button" data-act="play" aria-label="Reproduzir vídeo"><svg><use href="#i-play"/></svg></button>
+            <div class="controls">
+              <input class="seek" type="range" min="0" max="1000" step="1" value="0" aria-label="Posição do vídeo">
+              <div class="ctrl-row">
+                <button class="c-btn" type="button" data-act="back" aria-label="Voltar 10 segundos"><svg><use href="#i-back"/></svg></button>
+                <button class="c-btn c-play" type="button" data-act="play" aria-label="Reproduzir"><svg class="i-play"><use href="#i-play"/></svg><svg class="i-pause"><use href="#i-pause"/></svg></button>
+                <button class="c-btn" type="button" data-act="fwd" aria-label="Avançar 10 segundos"><svg><use href="#i-fwd"/></svg></button>
+                <span class="time"><span data-cur>0:00</span> / <span data-dur>0:00</span></span>
+                <div class="vol">
+                  <button class="c-btn" type="button" data-act="mute" aria-label="Silenciar"><svg class="i-vol"><use href="#i-vol"/></svg><svg class="i-mute"><use href="#i-mute"/></svg></button>
+                  <input class="vol-range" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tip-body">
+            <span class="tag">Ar-condicionado</span>
+            <h3>Pet pode ficar no ar? Pode, sim!</h3>
+            <p>Mantenha uma temperatura agradável, evite mudanças bruscas e não deixe o vento direto nele por muito tempo. Água fresca sempre por perto.</p>
+          </div>
+        </article>
+        <article class="tip reveal">
+          <div class="tip-media player" data-player>
+            <video class="tip-video" src="video/dica-praia.mp4" poster="img/poster-praia.jpg" playsinline preload="metadata" aria-label="Vídeo: Dr. Gabriel dá dicas de praia com pet"></video>
+            <span class="reel-badge"><svg class="ico"><use href="#i-ig"/></svg> Reel</span>
+            <button class="big-play" type="button" data-act="play" aria-label="Reproduzir vídeo"><svg><use href="#i-play"/></svg></button>
+            <div class="controls">
+              <input class="seek" type="range" min="0" max="1000" step="1" value="0" aria-label="Posição do vídeo">
+              <div class="ctrl-row">
+                <button class="c-btn" type="button" data-act="back" aria-label="Voltar 10 segundos"><svg><use href="#i-back"/></svg></button>
+                <button class="c-btn c-play" type="button" data-act="play" aria-label="Reproduzir"><svg class="i-play"><use href="#i-play"/></svg><svg class="i-pause"><use href="#i-pause"/></svg></button>
+                <button class="c-btn" type="button" data-act="fwd" aria-label="Avançar 10 segundos"><svg><use href="#i-fwd"/></svg></button>
+                <span class="time"><span data-cur>0:00</span> / <span data-dur>0:00</span></span>
+                <div class="vol">
+                  <button class="c-btn" type="button" data-act="mute" aria-label="Silenciar"><svg class="i-vol"><use href="#i-vol"/></svg><svg class="i-mute"><use href="#i-mute"/></svg></button>
+                  <input class="vol-range" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tip-body">
+            <span class="tag">Passeio</span>
+            <h3>Praia com pet, do jeito certo</h3>
+            <p>Evite os horários de sol forte, leve sombra e água doce, e cuidado com a areia quente nas patinhas.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="alert reveal">
+        <svg class="ico"><use href="#i-clock"/></svg>
+        <p><strong>Atenção aos sinais de hipertermia:</strong> respiração muito ofegante, fraqueza, gengiva muito vermelha ou comportamento diferente. Se notar, leve seu pet a um veterinário. A unidade Maurício de Nassau atende todos os dias até as 22h.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVALIAÇÕES -->
+  <section class="section reviews-section" id="avaliacoes">
+    <div class="wrap">
+      <div class="reviews-head reveal">
+        <div>
+          <p class="kicker">Quem já veio, recomenda</p>
+          <h2>“Confio de olhos fechados.”</h2>
+        </div>
+        <div class="score">
+          <strong>4,9</strong>
+          <div>
+            <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+            <span>32 avaliações no Google</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews">
+        <article class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“Atendimento excelente! O Dr. Gabriel é muito atencioso e cuidadoso. Sempre muito bem atendida com minha cachorrinha. Recomendo!”</p>
+          <footer><span class="avatar">A</span><span><strong>Ana Honorato</strong><small>Google</small></span></footer>
+        </article>
+        <article class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“A melhor clínica! Profissionais capacitados, espaço apropriado! Confio de olhos fechados.”</p>
+          <footer><span class="avatar">L</span><span><strong>Larissa Gabriela</strong><small>Google</small></span></footer>
+        </article>
+        <article class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“Sem dúvidas, a melhor clínica veterinária que já conheci! Atendimento excelente.”</p>
+          <footer><span class="avatar">M</span><span><strong>Manu Falcão</strong><small>Google</small></span></footer>
+        </article>
+      </div>
+
+      <div class="chips reveal">
+        <span>“Ambiente amplo, ótima localização e preços justos!”</span>
+        <span>“Ótimos profissionais e estagiárias, lugar super agradável e arrumado.”</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final">
+    <div class="wrap final-inner reveal">
+      <svg class="final-paw" aria-hidden="true"><use href="#i-paw"/></svg>
+      <h2>Seu pet merece esse cuidado.</h2>
+      <p>Fale com a gente agora e agende a consulta na unidade mais perto de você.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://wa.me/5581998963040?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20para%20o%20meu%20pet." target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg> Agendar consulta</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/clinica_amorpatas/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-ig"/></svg> @clinica_amorpatas</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="brand brand-light">
+        <img src="img/logo-perfil.jpg" alt="" width="44" height="44">
+        <span><strong>Amor de Patas</strong><small>Clínica Veterinária</small></span>
+      </a>
+      <p>Consultas, cirurgias, exames laboratoriais e internamento 24h em Caruaru e Recife.</p>
+      <a class="footer-ig" href="https://www.instagram.com/clinica_amorpatas/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-ig"/></svg> @clinica_amorpatas</a>
+    </div>
+    <div>
+      <h4>Unidade I · Recife</h4>
+      <p>Av. 21 de Abril, 1254<br>Afogados, Recife - PE</p>
+      <p>Seg. a sáb. · 8h30 às 18h</p>
+      <a href="tel:+5581997185601">(81) 99718-5601</a>
+    </div>
+    <div>
+      <h4>Unidade II · Caruaru</h4>
+      <p>R. Gonçalves Dias, 95<br>Maurício de Nassau, Caruaru - PE</p>
+      <p>Todos os dias · 8h30 às 22h<br>Internamento 24h</p>
+      <a href="tel:+5581998963040">(81) 99896-3040</a>
+    </div>
+    <div>
+      <h4>Unidade III · Caruaru</h4>
+      <p>Estrada para o Xique-Xique, 90<br>Boa Vista II (após o mercado É Bom)</p>
+      <p>Seg. a sáb. · 8h30 às 18h</p>
+      <a href="tel:+5581996171177">(81) 99617-1177</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© <span data-year></span> Clínica Amor de Patas</span>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5581998963040?text=Ol%C3%A1!%20Vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg><use href="#i-wa"/></svg>
+</a>
+
+</body>
+</html>
